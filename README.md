@@ -19,4 +19,7 @@ as well, but the lid was too large and the micro USB hole was too low.
 As this was a prototype, I used below-satisfactory settings, and I hadn't
 bothered to change the tape on the build plate.
 
-With the next
+After evaluating the initial prototype after printing it on 2017-05-19 I began
+making the changes.  I reduce the size of the lid and I raised and increased
+the size of the micro USB hole.  Tonight I am printing this version with higher
+settings, and I replaced the build plate tape.
