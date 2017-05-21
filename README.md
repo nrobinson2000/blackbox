@@ -29,6 +29,7 @@ Currently `blackbox` uses these components:
 * [Particle Photon](https://www.adafruit.com/product/2721)
 * [Adafruit BNO055](https://www.adafruit.com/product/2472)
 * [Adafruit Micro Lipo](https://www.adafruit.com/product/1904)
-* A 3.7V 2000mAH Lithium Ion Battery
-* A half-size breadboard
-* Some jumper wires and Dupont wires
+* 3.7V 2000mAH Lithium Ion Battery
+* Half-size breadboard
+* Jumper wires and Dupont wires
+* U.FL to RP-SMA adapter
