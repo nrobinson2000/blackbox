@@ -4,7 +4,7 @@
 # Project Log
 
 ## 2017-05-20
-I started the `blackbox` on 2017-05-18. I wanted to create a project using the
+I started `blackbox` on 2017-05-18. I wanted to create a project using the
 Particle Photon, and I wanted to create a sophisticated 3D-printed enclosure.
 After scoring an antenna
 [like this one on Adafruit](https://www.adafruit.com/product/944) that included
