@@ -16,12 +16,14 @@ I then started working on the enclosure.
 Using [Tinkercad](https://tinkercad.com), I eyeballed the measurements and
 designed an initial prototype. The breadboard fit in snugly, as did the antenna
 as well, but the lid was too large and the micro USB hole was too low.
-As [this was a prototype](https://tinkercad.com/things/0NrL4sqKlKY), I used below-satisfactory settings, and I hadn't
-bothered to change the tape on the build plate.
+As [this was a prototype](https://tinkercad.com/things/0NrL4sqKlKY),
+I used below-satisfactory settings, and I hadn't bothered to change the tape on
+the build plate.
 
 After evaluating the initial prototype after printing it on 2017-05-19 I began
 making the changes.  I reduced the size of the lid and I raised and increased
-the size of the micro USB hole.  Tonight I am [printing this version](https://tinkercad.com/things/7f0rGWDI544) with higher
+the size of the micro USB hole.  Tonight I am
+[printing this version](https://tinkercad.com/things/7f0rGWDI544) with higher
 settings, and I replaced the build plate tape.
 
 Currently `blackbox` uses these components:
@@ -34,3 +36,15 @@ Currently `blackbox` uses these components:
 * Half-size breadboard
 * Jumper wires and Dupont wires
 * U.FL to RP-SMA adapter
+
+I'd like to integrate the battery and Micro Lipo more into the design,
+to optimally have everything inside the case, all organized. I'd like to be
+able to charge `blackbox` without opening it if possible.
+
+I want `blackbox` to be a portable (but not like 3G portable) hacking station
+for doing all kinds of great things. I'd love to make use of the
+[Keyboard Library](https://docs.particle.io/reference/firmware/photon/#keyboard)
+which allows the Photon to act as a normal USB keyboard.
+
+I just came up with an idea! I could make a USB Keyboard/Mouse game controller
+using `blackbox` that would use accelerometer data.
