@@ -4,7 +4,7 @@
 # Project Log
 
 ## 2017-05-20
-I started `blackbox` on 2017-05-18. I wanted to create a project using the
+I started the `blackbox` on 2017-05-18. I wanted to create a project using the
 Particle Photon, and I wanted to create a sophisticated 3D-printed enclosure.
 After scoring an antenna
 [like this one on Adafruit](https://www.adafruit.com/product/944) that included
@@ -23,3 +23,10 @@ After evaluating the initial prototype after printing it on 2017-05-19 I began
 making the changes.  I reduced the size of the lid and I raised and increased
 the size of the micro USB hole.  Tonight I am [printing this version](https://tinkercad.com/things/7f0rGWDI544) with higher
 settings, and I replaced the build plate tape.
+
+Currently `blackbox` uses these components:
+
+* [Particle Photon](https://www.adafruit.com/product/2721)
+* [Adafruit BNO055](https://www.adafruit.com/product/2472)
+* [Adafruit Micro Lipo](https://www.adafruit.com/product/1904)
+* A 3.7V 2000mAH Lithium Ion Battery
