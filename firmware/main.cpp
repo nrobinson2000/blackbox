@@ -3,7 +3,7 @@
 #include "Particle.h"
 
 STARTUP(WiFi.selectAntenna(ANT_EXTERNAL));
-
+STARTUP(Keyboard.begin());
 
 SYSTEM_MODE(SEMI_AUTOMATIC);
 SYSTEM_THREAD(ENABLED);
@@ -37,12 +37,19 @@ int getWifi(String commmand)
         return 0;
 }
 
+int sendKeystrokes(String command)
+{
+  Keyboard.println(command);
+  return 0;
+}
+
 
 void setup() // Put setup code here to run once
 {
 
         Particle.function("getAxis", getAxis);
         Particle.function("getWifi", getWifi);
+        Particle.function("keyboard", sendKeystrokes);
         bno.begin();
         bno.setExtCrystalUse(true);
         Particle.connect();
